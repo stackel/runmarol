@@ -16,13 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/stackel/runmarol.git"
   },
-  "keywords": [
-    "static",
-    "web",
-    "html",
-    "mustache",
-    "tachyons"
-  ],
+  "keywords": [],
   "author": "Erik Stackelberg",
   "license": "ISC",
   "bugs": {
