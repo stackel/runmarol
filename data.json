@@ -16,12 +16,27 @@
         "abv": 4.7,
         "color": "e0c233",
         "img_src": "res/sommarlager.png"
-
       }
     ],
     "bottle": [{
-      "name": "Berliner Weisse"
-    }],
+        "name": "NEIPA",
+        "type": "New England Pale Ale",
+        "abv": 6.3,
+        "img_src": "res/neipa.png"
+      },
+      {
+        "name": "Passionfruit Sour",
+        "type": "Berliner Weisse",
+        "abv": 3.3,
+        "img_src": "res/berlinerweisse.png"
+      },
+      {
+        "name": "Imperial Chocolate Stout",
+        "type": "Imperial Stout",
+        "abv": 7.0,
+        "img_src": "res/imperialstout.png"
+      }
+    ],
     "archived": [
 
     ]
