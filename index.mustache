@@ -8,36 +8,24 @@
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
 </head>
 
-<body class="mw7 center pv5 ph2">
-  <img class="w-75" src="{{logo_url}}"/>
-  <p class="sans-serif f5">
-    {{tagline}}
-  </p>
-  <p class="mt5 b f4 sans-serif"> Våra öl </p>
-  <div class="cf">
-    <div class="fl w-50-l w-100 ph3 pr4-l ">
-      <img class="center link pointer" src="res/witbier.png"/>
-    </div>
-    <div class="fl w-50-l w-100 ph3 pl4-l pt3 pt0-l">
-      <img class="center link pointer" src="res/kaffeporter.png"/>
-    </div>
-  </div>
-  <div class="cf pt4-l pt3">
-    <div class="fl w-50-l w-100 ph3 pr4-l">
-      <img class="center link pointer" src="res/humlejuice.png"/>
-    </div>
-    <div class="fl w-50-l w-100 ph3 pl4-l pt3 pt0-l">
-      <img class="center link pointer" src="res/veteochhallon.png"/>
-    </div>
-  </div>
-  <div class="cf pt4-l pt3">
-    <div class="fl w-50-l w-100 ph3 pr4-l">
-      <img class="center link pointer" src="res/lemondrop.png"/>
-    </div>
-    <div class="fl w-50-l w-100 ph3 pl4-l pt3 pt0-l">
-      <img class="center link pointer" src="res/stout.png"/>
-    </div>
-  </div>
+<body class="mw7 center pv5 ph4">
+  <img class="w-100 w-50-ns" src="{{logo_url}}"/>
+  <h2 class="sans-serif b f3 mt5 mb4 tc"> On Tap </h2>
+  <ul class="list pl0 cf">
+  {{#beers.tap}}
+    <li
+    class="w-50-ns w-100 fl ph5 cf mb4 mb0-ns">
+    <img src="{{img_src}}" />
+    <div>
+      <h3 class="f4 sans-serif mb1 fw4">{{name}}</h3>
+      <h4 class="fw4 i f5 sans-serif mt2 gray">{{type}} - {{abv}}%</h4>
+      </div>
+    </li>
+  {{/beers.tap}}
+  </ul>
+
+
+
   <footer>
     <pre class="pt5 tc"> Kontakt: <a href="mailto:erikstackelberg@gmail.com">erikstackelberg@gmail.com</a></pre>
   </footer>

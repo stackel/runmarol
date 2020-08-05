@@ -1,5 +1,29 @@
 {
   "name": "Runmaröl",
   "tagline": "Ett hantverksbryggeri beläget på Runmarö.\n Vi brygger säsongsbetonad öl.",
-  "logo_url": "res/logo.png"
+  "logo_url": "res/logo.png",
+  "beers": {
+    "tap": [{
+        "name": "Brown Ale",
+        "type": "American Brown Ale",
+        "abv": 5.4,
+        "color": "7b281e",
+        "img_src": "res/brownale.png"
+      },
+      {
+        "name": "Sommarlager",
+        "type": "International Lager",
+        "abv": 4.7,
+        "color": "e0c233",
+        "img_src": "res/sommarlager.png"
+
+      }
+    ],
+    "bottle": [{
+      "name": "Berliner Weisse"
+    }],
+    "archived": [
+
+    ]
+  }
 }
