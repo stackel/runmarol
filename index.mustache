@@ -24,6 +24,20 @@
   {{/beers.tap}}
   </ul>
 
+  <h2 class="sans-serif b f3 mt5 mb4 tc"> Bottle </h2>
+  <ul class="list pl0 cf">
+  {{#beers.bottle}}
+    <li
+    class="w-50-ns w-100 fl ph5 cf mb4 mb0-ns">
+    <img src="{{img_src}}" />
+    <div>
+      <h3 class="f4 sans-serif mb1 fw4">{{name}}</h3>
+      <h4 class="fw4 i f5 sans-serif mt2 gray">{{type}} - {{abv}}%</h4>
+      </div>
+    </li>
+  {{/beers.bottle}}
+  </ul>
+
 
 
   <footer>
